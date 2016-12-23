@@ -1,0 +1,165 @@
+
+.logo{
+    width: 35%;
+}
+.tel{
+    float: right;
+    padding-right: 20px;
+    float: right;
+padding-top: 10px;
+padding-right: 35px;
+padding-left: 40px;
+}
+.sumy{
+  padding-left: 35px;
+}
+.price{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top:40px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 3px;
+
+}
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration:none;
+
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    text-align: center;
+}
+.blk{
+    font-size: 14px;
+    color: black;
+    background: #1660C3;;
+    height: 50px;
+    padding-left: 35px;
+    padding-top: 10px;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 0px;
+    background: #1660C3;;
+}
+/*нАЧАЛО 3 БЛОКА */
+.block2{
+   background: #1B1C6E;
+   padding: 30px 20px 30px ;
+   text-align: center;
+   border-top: 2px solid #F5F5F5;
+   color: #F5F5F5;
+
+}
+.block{
+    height: 300px;
+   padding: 30px 50px 30px ;
+   text-align: center;
+   color: #F5F5F5;
+}
+.block1{
+    
+   padding: 30px ;
+   text-align: center;
+   color: #black;
+}
+.block1 h1{
+ font-weight: bold;
+ color:#C02727;
+}
+/*КОНЕЦ 3 БЛОКА */
+
+/*НАЧАЛО 4 БЛОКА */
+.decktop{
+     padding-top: 100px ;
+      position:relative;
+  width:auto;
+  
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #c02929;
+    border-color: #2e6da4;
+}
+
+
+
+
+.thumbnail{
+  text-overflow: ellipsis; // образка длинных блоков с текстом
+  overflow: hidden; // прятать выходящий за пределы текст
+  width: 100%; // ширина блока с текстом
+  white-space: nowrap; // запрет на перенос текста
+}
+/*КОНЕЦ 3 БЛОКА */
+p{
+  line-height: 25px;
+  font-size: 15px
+}
+.baner{
+  width: 70%;
+ 
+}
+.podpiska {
+  padding-top: 80px;
+  padding-bottom: 40px;
+ text-align: center;
+}
+.podpiska h3 {
+  padding-top: 80px;
+  padding-bottom: 40px;
+ text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.h2, h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.cont{
+
+}
+.cont h2{
+ text-align: center;
+ font-weight: bold;
+}
+.cont h2{
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
