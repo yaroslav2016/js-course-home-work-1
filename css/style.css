@@ -26,12 +26,10 @@ a {
     font-weight: bold;
     font-size: 16px;
     margin: 3px;
-
 }
 a:focus, a:hover {
     color: #23527c;
     text-decoration:none;
-
 }
 .nav {
     padding-left: 0;
@@ -47,7 +45,6 @@ a:focus, a:hover {
     padding-left: 35px;
     padding-top: 10px;
 }
-
 .btn-group-sm>.btn, .btn-sm {
     padding: 5px 10px;
     font-size: 12px;
@@ -62,7 +59,6 @@ a:focus, a:hover {
    text-align: center;
    border-top: 2px solid #F5F5F5;
    color: #F5F5F5;
-
 }
 .block{
     height: 300px;
@@ -71,7 +67,6 @@ a:focus, a:hover {
    color: #F5F5F5;
 }
 .block1{
-    
    padding: 30px ;
    text-align: center;
    color: #black;
@@ -87,18 +82,12 @@ a:focus, a:hover {
      padding-top: 100px ;
       position:relative;
   width:auto;
-  
 }
-
 .btn-primary {
     color: #fff;
     background-color: #c02929;
     border-color: #2e6da4;
 }
-
-
-
-
 .thumbnail{
   text-overflow: ellipsis; // образка длинных блоков с текстом
   overflow: hidden; // прятать выходящий за пределы текст
@@ -108,7 +97,9 @@ a:focus, a:hover {
 /*КОНЕЦ 3 БЛОКА */
 p{
   line-height: 25px;
-  font-size: 15px
+  font-size: 15px;
+  text-align:center;
+  padding: 10px;
 }
 .baner{
   width: 70%;
@@ -126,7 +117,6 @@ p{
 text-transform: uppercase;
 font-weight: bold;
 }
-
 .h2, h2 {
     font-size: 30px;
     font-weight: bold;
@@ -143,6 +133,18 @@ font-weight: bold;
 .cont h2{
   padding-top: 20px;
   text-transform: uppercase;
+}
+.cont-futers{
+  background: #1b1c6e;
+  margin-top: 40px;
+}
+.cont-futers {
+  color: #fff;
+}
+.list-group {
+    padding-left: 0;
+    margin-bottom: 20px;
+    text-align: center;
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
